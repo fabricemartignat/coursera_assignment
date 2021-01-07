@@ -1,0 +1,105 @@
+nav {
+  border-bottom: 2px solid #000000;
+  background: #ffffff;
+}
+
+/* TO AVOID OVERLAY DUE TO FIXED TOP */
+body {
+  margin-top: 90px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+.carousel-control-prev-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.carousel-control-next-icon {
+  width: 35px;
+  height: 35px;
+}
+
+#video-play,
+#newsletter,
+#mortgage-calculator {
+  color: #ffffff;
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgba(67, 67, 67, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.fas.fa-play {
+  color: #ffffff;
+}
+
+#main-footer {
+  background: #000000;
+  flex-shrink: 0;
+}
+
+.lineheight {
+  line-height: 2.5rem;
+}
+
+.label-term {
+  width: 28%;
+}
+
+label {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+.calculate-btn {
+  font-size: 1.2rem;
+  height: 85%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px grey;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+#experts img {
+  margin-top: -65px;
+}
+
+#experts .card:hover {
+  background: radial-gradient(
+    circle,
+    rgba(67, 67, 67, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #ffffff;
+}
+
+.cardheight {
+  padding-bottom: 32px;
+}
+
+/* RESPONIVE PART*/
+
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 90px;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+  .label-term {
+    width: 36%;
+  }
+
+  .calculate-btn {
+    font-size: 1rem;
+    border-radius: 0;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+}
