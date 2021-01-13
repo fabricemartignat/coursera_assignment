@@ -101,9 +101,9 @@
 
     </section>
 
-    <!--VIDEO-->
+    <!--VIDEO MD AND ABOVE-->
 
-    <section id="video-play">
+    <section id="video-play" class="d-none d-md-block">
       <div class="container p-5 ">
         <div class="row">
           <div class="col">
@@ -114,6 +114,23 @@
       </div>
 
     </section>
+
+    <!--VIDEO SM-->
+
+    <section id="video-play-sm" class="d-md-none">
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col">
+            <a href="" class="video btn btn-dark btn-block btn-lg" data-video ="https://www.youtube.com/embed/fTTGALaRZoc" data-toggle= "modal" data-target="#videomodal">Discover How We Can Help You</a>
+          
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    
 
     <!--CASE STUDIES-->
 
@@ -166,12 +183,12 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>Sign Up For Our Newsletter</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel quae, id facilis mollitia amet!</p>
+            <h1 class="text-resp">Sign Up For Our Newsletter</h1>
+            <p class="d-none d-mb-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel quae, id facilis mollitia amet!</p>
             <form class="form-inline justify-content-center py-2">
-              <input type="text" class="form-control mr-2" placeholder="Enter Name">
+              <input type="text" class="form-control mr-2 d-none d-md-block" placeholder="Enter Name">
               <input type="email" class="form-control mr-2" placeholder="Enter Email">
-              <button class="btn btn-primary">Submit</button>
+              <button class="btn btn-primary submit-btn-resp">Submit</button>
             </form>
 
           </div>
